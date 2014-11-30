@@ -14,8 +14,8 @@ public class SecondScreen extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second_screen);
 
-        TextView user= (TextView)findViewById(R.id.textView);
-        TextView pass= (TextView)findViewById(R.id.textView2);
+        TextView user = (TextView) findViewById(R.id.textView);
+        TextView pass = (TextView) findViewById(R.id.textView2);
         user.setText(getIntent().getStringExtra("username"));
         pass.setText(getIntent().getStringExtra("password"));
 
