@@ -19,8 +19,8 @@ package com.example.mlndz.siso;
         import java.util.ArrayList;
         import java.util.List;
 
-public class LoadMoreMoviesTask extends AsyncTask<Integer, Void, Boolean> {
-
+public class EventRequest extends AsyncTask<Integer, Void, Boolean> {
+/*
     private Activity activity;
     private MovieListAdapter adapter;
     private List<Movie> movies = new ArrayList<Movie>();
@@ -70,5 +70,5 @@ public class LoadMoreMoviesTask extends AsyncTask<Integer, Void, Boolean> {
         if(result){
             adapter.setData(movies);
         }
-    }
+    }*/
 }

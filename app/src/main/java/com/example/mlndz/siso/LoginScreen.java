@@ -122,4 +122,14 @@ public class LoginScreen extends ActionBarActivity {
         //TextW
 
     }
+
+    public void onDatAnotherClick(View v) {
+
+        Intent nextScreeen = new Intent(getApplicationContext(), eventoshome.class);
+        startActivity(nextScreeen);
+        //TextW
+
+    }
+
+
 }

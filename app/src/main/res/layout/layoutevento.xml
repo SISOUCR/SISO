@@ -1,8 +1,8 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
-    android:layout_height="@dimen/abc_panel_menu_list_width"
+    android:layout_height="fill_parent"
     android:padding="6dip"
-    style="@style/ThemeOverlay.AppCompat.Dark">
+    style="@style/AppTheme">
 
 
     <TextView
